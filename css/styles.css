@@ -45,12 +45,28 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     background-color: white;
     padding: 2rem;
     border-radius: 20px;
     border: 1px, solid, black;
     box-shadow: 11px 11px 0 black;
+}
+
+.intro-details {
+    align-items: start;
+    flex-direction: left;
+}
+
+.learning-container {
+    background-color: #F4D04E;
+    width: fit-content;
+    padding: 0em 1em;
+    border-radius: 4px;
+}
+
+.learning {
+    font-weight: bold;
+    line-height: 150%;
 }
 
 .hero-img {
@@ -61,6 +77,15 @@ body {
 .hero {
     border-radius: 20px;
     width: 19rem;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.desc {
+    font-size: 14px;
+    color: #686868
 }
 
 .author {
@@ -77,4 +102,5 @@ body {
 
 .name {
     font-weight: bold;
+    font-size: 14px;
 }

@@ -1,8 +1,16 @@
 @charset "UTF-8";
 
+:root {
+    --white: #FFFFFF;
+    --gray-950: #111111;
+    --gray-500: #6b6b6b;
+    --yellow: #F4D04E;
+}
+
 html, body {
     margin: 0;
     padding: 0;
+    color: var(--gray-950)
 }
 
 @font-face {
@@ -28,7 +36,7 @@ html, body {
 }
 
 html {
-    background-color: #F4D04E;
+    background-color: var(--yellow);
     font-family: 'Figtree';
 }
 
@@ -45,7 +53,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: white;
+    background-color: var(--white);
     padding: 2rem;
     border-radius: 20px;
     border: 1px, solid, black;
@@ -58,7 +66,7 @@ body {
 }
 
 .learning-container {
-    background-color: #F4D04E;
+    background-color: var(--yellow);
     width: fit-content;
     padding: 0em 1em;
     border-radius: 4px;
@@ -85,7 +93,7 @@ h1 {
 
 .desc {
     font-size: 14px;
-    color: #686868
+    color: var(--gray-500)
 }
 
 .author {

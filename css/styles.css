@@ -5,6 +5,7 @@
     --gray-950: #111111;
     --gray-500: #6b6b6b;
     --yellow: #F4D04E;
+    --black: #000000;
 }
 
 html, body {
@@ -57,8 +58,8 @@ body {
     background-color: var(--white);
     padding: 2rem;
     border-radius: 20px;
-    border: 1px solid black;
-    box-shadow: 11px 11px 0 black;
+    border: 1px solid var(--black);
+    box-shadow: 11px 11px 0 var(--black);
 }
 
 .intro-details {
